@@ -1,0 +1,50 @@
+export const colors = {
+  BLACK: "#333",
+  WHITE: "#FFF",
+  ACCENT: "#ffc300",
+  ACCENT_TO: "#ffaa00",
+  BG_GRAY: "#f8f9fa",
+  TEXT_GRAY: "#adb5bd",
+  GRAY_100: "#f8f9fa",
+  GRAY_200: "#e9ecef",
+  GRAY_300: "#dee2e6",
+  GRAY_400: "#ced4da",
+  GRAY_500: "#adb5bd",
+  GRAY_600: "#6c757d",
+  GRAY_700: "#495057",
+  GRAY_800: "#343a40",
+  GRAY_900: "#212529",
+  GREEN_100: "#b7efc5",
+  GREEN_200: "#92e6a7",
+  GREEN_300: "#6ede8a",
+  GREEN_400: "#4ad66d",
+  GREEN_500: "#2dc653",
+  GREEN_600: "#25a244",
+  GREEN_700: "#208b3a",
+  GREEN_800: "#1a7431",
+  GREEN_900: "#155d27",
+  GREEN_1000: "#10451d",
+};
+
+export const BOX_SHADOW = {
+  sm: {
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowOpacity: 0.21,
+    shadowRadius: 2.22,
+    elevation: 3,
+  },
+  md: {
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.15,
+    shadowRadius: 10,
+    elevation: 5,
+  },
+};
