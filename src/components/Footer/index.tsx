@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, ScrollView, StyleSheet } from "react-native";
 import React, { FC } from "react";
 import { colors } from "../../styles";
 import { menuList } from "./menuList";
@@ -12,15 +12,19 @@ interface IFooter {
 
 const Footer: FC<IFooter> = ({ navigate, currentRoute }) => {
   return (
-    <View style={styles.root}>
-      {menuList.map((item) => (
-        <FooterNavItem
-          key={item.title.en}
-          item={item}
-          navigate={navigate}
-          currentRoute={currentRoute}
-        />
-      ))}
+    <View>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+        <View style={styles.root}>
+          {menuList.map((item) => (
+            <FooterNavItem
+              key={item.title.en}
+              item={item}
+              navigate={navigate}
+              currentRoute={currentRoute}
+            />
+          ))}
+        </View>
+      </ScrollView>
     </View>
   );
 };
@@ -33,6 +37,7 @@ const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
     gap: 15,
+    flex: 1,
     paddingHorizontal: 20,
     paddingTop: 20,
     paddingBottom: 20,

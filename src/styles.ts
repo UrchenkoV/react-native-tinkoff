@@ -24,6 +24,16 @@ export const colors = {
   GREEN_800: "#1a7431",
   GREEN_900: "#155d27",
   GREEN_1000: "#10451d",
+  RED_100: "#FFF0F3",
+  RED_200: "#FFCCD5",
+  RED_300: "#FFB3C1",
+  RED_400: "#FF8FA3",
+  RED_500: "#FF758F",
+  RED_600: "#FF4D6D",
+  RED_700: "#C9184A",
+  RED_800: "#A4133C",
+  RED_900: "#800F2F",
+  RED_1000: "#590D22",
 };
 
 export const BOX_SHADOW = {

@@ -1,10 +1,12 @@
 import { View, Text, StyleSheet } from "react-native";
 import React from "react";
 
-export default function SupportScreen() {
+const SupportMessageItem = () => {
   return (
     <View>
-      <Text>Support</Text>
+      <Text>SupportMessageItem</Text>
     </View>
   );
-}
+};
+
+export default SupportMessageItem;
